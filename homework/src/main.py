@@ -1,5 +1,5 @@
 from homework.src._internals.count_words import CountWordsMixin
-from homework.src._internals.parse_args import ParseArgsMixin
+from homework.src._internals.pars_args import ParseArgsMixin
 from homework.src._internals.preprocess_lines import PreprocessLinesMixin
 from homework.src._internals.read_all_lines import ReadAllLinesMixin
 from homework.src._internals.split_into_words import SplitIntoWordsMixin
@@ -34,4 +34,3 @@ class WordCountApp(
 
 if __name__ == "__main__":
     WordCountApp().run()
-
