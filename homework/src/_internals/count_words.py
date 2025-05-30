@@ -1,3 +1,4 @@
+# teste
 class CountWordsMixin:
     def count_words(self):
         """Count occurrences of each word using a plain dictionary."""
